@@ -1,0 +1,22 @@
+.GoogleSignIn{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.signIn {
+    background-color: #26d86a;
+    color: white;
+}
+
+.signOut {
+    background-color: #c72b2b;
+    color: white;
+}
