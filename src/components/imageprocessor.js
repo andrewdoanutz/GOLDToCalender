@@ -40,7 +40,7 @@ componentDidMount(){
         render() {
          if(wordsbool===false){
            return(
-             <div className="homebox">
+             <div className="words">
              Loading...
              </div>
              
@@ -51,16 +51,11 @@ componentDidMount(){
          else{
           
         return(
-
-          <div className="homebox">
-        
-           
-         <div>result:</div>
-         <div>{this.state.words}</div>
-         
-         
-         
-        
+          <div>
+            <div>result:</div>
+            <div className="words">
+            <div>{this.state.words}</div>
+            </div>
         
        </div>
           )

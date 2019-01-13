@@ -35,9 +35,7 @@ export default class NavBar extends React.Component {
                 <li>
                   <NavLink to="/">Home</NavLink>
                 </li>
-                <li>
-                  <NavLink to="/signin">Sign In</NavLink>
-                </li>
+               
                 <li>
                   <NavLink to="/about">About Us</NavLink>
                 </li>
