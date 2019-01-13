@@ -16,6 +16,7 @@ export default class Proc extends Component {
       words:"n/a",
      
     }
+    
   
   };
   
